@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="playerInfo">
+        <p id="playerName">Ты</p>
+    </div>
+    <div class="buttonbox">
+    <div class = "magicBallButton">
+        <button id = "magic" data-tooltip="Магический шар, который даст ответ на беспокоящие вопросы" onclick="goToMagicBall()">Магический шар</button>
+    </div>
+    <div class = "blackjackButton">
+        <button id = "cardsGame" data-tooltip="Стандартная игра 21. Простая и затягивающая!" onclick="goToCardsGame()">Картишки</button>
+    </div>
+    <div class = "burglarButton">
+        <button id = "burglar" data-tooltip="Игра закидывает тебя в шкуру опытного вора-домушника который решил проверить силы" onclick="goToBurglar()">Посоревноваться в мастерстве</button>
+    </div>
+    <div class="slotsButton">
+        <button id = "line" data-tooltip="Игровые автоматы. Ничего особенного, но как увлекательно!" onclick="goToSlots()">Машина в линию</button>
+    </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "script.js"></script>
+
+</body>
+</html>

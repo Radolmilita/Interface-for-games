@@ -1,0 +1,55 @@
+body{
+    max-width:100%;
+    background:url(bg.jpeg);
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat;
+    align-items: center;
+}
+body .wrapper{
+    background-color: blanchedalmond;
+}
+body .wrapper .story-text{
+    font-size: 1vw;
+    text-align: center;
+}
+body .start-btn{
+    width:30vw;
+    height:8vh;
+    margin:2vh;
+    border:none;
+    text-decoration:none;
+    border-radius:8px;
+    background-color:black;
+    color: rgb(204, 0, 255);
+    background-size:100%;
+    background-position:center center;
+    background-repeat:no-repeat
+}
+body .start-btn .start{
+    font-size: 2.5vw;
+    text-align: center;
+    background: black;
+    color: rgb(204, 0, 255);
+    background-position:center center;
+}
+body .quit-btn{
+    width:30vw;
+    height:8vh;
+    margin:2vh;
+    border:none;
+    text-decoration:none;
+    border-radius:8px;
+    background-color:black;
+    color: rgb(204, 0, 255);
+    background-size:100%;
+    background-position:center center;
+    background-repeat:no-repeat
+}
+body .quit-btn .quit{
+    font-size: 2.5vw;
+    text-align: center;
+    background: black;
+    color: rgb(204, 0, 255);
+    background-position:center center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Очко</title>
+</head>
+<body>
+    <h1>Игра Очко</h1>
+    <div class="textupdates" id="textUpdates">
+        Нажмите 'Новая игра' чтобы начать!
+
+
+    </div> 
+
+    <div class="buttonbox" id="newGame">
+        <button alt="play" id="play">Новая игра</button>
+    </div>
+    <div class="buttonbox hidden" id="buttonBox">
+        <button alt="hit" id="hit">Беру</button>
+        <button alt="stay" id="stay">Хорош</button>
+    </div>
+    <table>
+        <tr>
+            <th id="playerHand">             
+                Ваша рука
+            </th>
+            <th id="dealerHand">
+                Рука соперника
+            </th>
+        </tr>
+        <tr>
+            <td id="playerCards">Карты не было сыграно</td>
+            <td id="dealerCards">Карты не было сыграно</td>
+
+        </tr> 
+    </table>
+    <div id="tracker" class="buttonbox">
+        <p>Побед: 0 Ничей: 0 Поражений: 0</p>
+    </div>
+    <div class="buttonbox">
+        <p><span class="bold" >Советы по игре: </span></p>       
+        <span id="choice" class="bold redcard"></span>
+        <!--<br />
+        <br />
+        <img src="img/stratchart.png" />-->
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

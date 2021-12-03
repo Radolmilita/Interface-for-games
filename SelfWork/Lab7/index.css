@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  body{
+    background-color:rgb(250, 211, 166);
+    color:#000000;
+    font-size:3vw;
+  }
+  
+  .sphere{
+    width:25vw;
+    margin-top:4%;
+    height:25vw;
+    text-align: center;
+    background:radial-gradient(#46daee,#32f0b7,#ffb13cf8,#1814dae5);
+    border-radius: 50%; 
+    box-shadow: 0px 0.1vw 1.5vw 0.5vw #426f94;
+    position: relative;
+    cursor:pointer;
+    font-size:2vw;
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    color: orangered;
+  }
+  input{
+    font-size:1vw;
+    width:30vw;
+  }
+  
+  @keyframes shake{
+    0% { transform: translate(5px, 3px) rotate(9deg); }
+    10% { transform: translate(-3px, -5px) rotate(-7deg); }
+    20% { transform: translate(-3px, 5px) rotate(9deg); }
+    30% { transform: translate(-3px, -5px) rotate(7deg); }
+    40% { transform: translate(3px, -3px) rotate(7deg); }
+    50% { transform: translate(-3px, 5px) rotate(-7deg); }
+    60% { transform: translate(3px, -3px) rotate(9deg); }
+    70% { transform: translate(3px, 3px) rotate(-6deg); }
+    80% { transform: translate(-3px, 5px) rotate(-7deg); }
+    90% { transform: translate(3px, -5px) rotate(-9deg); }
+    100% { transform: translate(3px, -5px) rotate(-7deg); }
+  }  
+  
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 100%;}
+  }
+  .blinkcl{
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  .sphereShake{
+    animation-name: shake;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1; 
+  }
+  .btn{
+    position: relative;
+    display: flex;
+    width: 10vw;
+    font-size: 2vw;
+
+  }

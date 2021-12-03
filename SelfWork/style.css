@@ -1,0 +1,65 @@
+body{
+    background-size: cover;
+    background-image: url(bgm.jpeg  );
+    background-repeat: no-repeat;
+    display: none;
+}
+
+div.buttonbox{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    border-radius: 6px;
+}
+div.playerInfo{
+    width: 50%;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+#playerName{
+    font-size: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+[data-tooltip] {
+    position: relative;
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip); 
+    position: absolute; 
+    width: 300px; 
+    left: 0; top: 0; 
+    background: #3989c9; 
+    color: #fff; 
+    padding: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0; 
+    transition: 1s;
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1;
+    left: 8em;
+   }

@@ -1,0 +1,91 @@
+body{
+    max-width:100%;
+    background:url(bg.jpeg);
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat;
+}
+    body .wrapper{
+        width:100%;
+        height:100%;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center;
+        -ms-flex-line-pack:center;
+        align-content:center;
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        justify-content:center
+    }
+    body .wrapper .name-page{
+        color:#ffc400;
+        font-size:7vw
+    }
+    body .wrapper .levels{
+        color:#A5260A;
+        display:-webkit-inline-box;
+        display:-ms-inline-flexbox;
+        display:inline-flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column
+    }
+    body .wrapper .levels button{
+        width:41vw;
+        height:8vh;
+        margin:1vh;
+        text-decoration:none;
+        text-align:start;
+        border:none;
+        background-size:100%;
+        background-position:center;
+        background-repeat:no-repeat
+    }
+    body .wrapper .levels .levels__level{
+        color:rgb(255, 72, 0);
+        font-size:4vh;
+        text-decoration:none;
+        padding-left:6vw
+    }
+    body .wrapper .levels button:hover{
+        text-decoration:underline;
+        -webkit-box-shadow:0px 0px 15px;
+        box-shadow:0px 0px 15px
+    }
+    body .wrapper .levels button:hover .levels__level{
+        color:rgb(255, 0, 0);
+    }
+    body .wrapper .back-btn{
+        font-size: 4vh;
+        width:40vw;
+        height:8vh;
+        margin:3vh;
+        text-decoration:none;
+        border:none;
+        background:black;
+        color:rgb(204, 0, 255);
+        background-size:100%;
+        background-position:center;
+        background-repeat:no-repeat
+    }
+    body .wrapper .back-btn .back-btn__link{
+        color:black;
+        font-size:4vh;
+        text-decoration:none
+    }
+    body .wrapper .back-btn:hover{
+        text-decoration:underline;
+        -webkit-box-shadow:0px 0px 15px;
+        box-shadow:0px 0px 15px
+    }
+    body .wrapper .back-btn:hover .back-btn__link{
+        color:#91000d
+    }

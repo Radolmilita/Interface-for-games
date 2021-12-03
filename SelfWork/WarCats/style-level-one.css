@@ -1,0 +1,216 @@
+blockquote,body,dd,dl,figcaption,figure,h1,h2,h3,h4,li,ol[class],p,ul[class]{
+    margin:0
+}
+body{
+    max-width:100%;
+    background-color: blanchedalmond;
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat
+}
+body .wrapper{
+    height:100vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column
+}
+body .wrapper .name-page{
+    color:#91000d;
+    font-size:3vw;
+    padding-top:2vh;
+    margin:auto
+}
+body .wrapper .content{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack:distribute;
+    justify-content:space-around;
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    padding-top:1vh;
+    padding-bottom:2vh
+}
+body .wrapper .content .player{
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0;
+    -ms-flex-item-align:end;
+    align-self:flex-end;
+    bottom:0px
+}
+body .wrapper .content .player .player-block{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0
+}
+body .wrapper .content .player .player-block .player-image{
+    margin-bottom:3vh;
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0;
+    border:4 px solid red
+}
+body .wrapper .content .player .player-block .player-info{
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0;
+    width:12vw;
+    height:30vh;
+    color:#000;
+    font-size:3vh;
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat;
+    padding-top:3vh;
+    padding-left:3vh
+}
+body .wrapper .content .player .player-block .player-info p{
+    margin-top:1vh;
+    margin-left:4vh
+}
+body .wrapper .content .player .player-block .player-info p:first-child{
+    margin-bottom:15px;
+    margin-left:-2px;
+    text-align:center
+}
+body .wrapper .content .player .player-block .player-info p:last-child{
+    text-align:center;
+    margin-left:-2px
+}
+body .wrapper .content .icons{
+    width:12vw;
+    height:35vh;
+    margin-top:-6vh;
+    -ms-flex-item-align:center;
+    -ms-grid-row-align:center;
+    align-self:center;
+    background:url(battle-icon.jpeg);
+    background-size:100%;
+    background-repeat:no-repeat
+}
+body .wrapper .content .computer{
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0;
+    -ms-flex-item-align:start;
+    align-self:flex-start
+}
+body .wrapper .content .computer .computer-block{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0
+}
+body .wrapper .content .computer .computer-block .computer-image{
+    margin-top:5vh;
+    margin-left:1vh;
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0
+}
+body .wrapper .content .computer .computer-block .computer-info{
+    -webkit-box-flex:0;
+    -ms-flex-positive:0;
+    flex-grow:0;
+    width:12vw;
+    height:30vh;
+    color:black;
+    font-size:3vh;
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat;
+    margin-top:5vh;
+    padding-top:3vh;
+    padding-left:3vh
+}
+body .wrapper .content .computer .computer-block .computer-info p{
+    margin-top:1vh;
+    margin-left:4vh
+}
+body .wrapper .content .computer .computer-block .computer-info p:first-child{
+    margin-bottom:15px;
+    padding-left:1vh
+}
+body .wrapper .content .computer .computer-block .computer-info p:last-child{
+    margin-left:-2px;
+    text-align:center
+}
+body .arrow-next-lvl{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    display:none
+}
+body .arrow-next-lvl img{
+    width:10vw;
+    height:5vh
+}
+.shaking{
+    -webkit-animation:shake 0.82s cubic-bezier(0.36,0.07,0.19,0.97) both;
+    animation:shake 0.82s cubic-bezier(0.36,0.07,0.19,0.97) both;
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0)
+}
+@-webkit-keyframes shake{
+    10%,90%{
+        -webkit-transform:translate3d(-1px,0,0);
+        transform:translate3d(-1px,0,0)
+    }
+    20%,80%{
+        -webkit-transform:translate3d(2px,0,0);
+        transform:translate3d(2px,0,0)
+    }
+    30%,50%,70%{
+        -webkit-transform:translate3d(-4px,0,0);
+        transform:translate3d(-4px,0,0)
+    }
+    40%,60%{
+        -webkit-transform:translate3d(4px,0,0);
+        transform:translate3d(4px,0,0)
+    }
+}
+@keyframes shake{
+    10%,90%{
+        -webkit-transform:translate3d(-1px,0,0);
+        transform:translate3d(-1px,0,0)
+    }
+    20%,80%{
+        -webkit-transform:translate3d(2px,0,0);
+        transform:translate3d(2px,0,0)
+    }
+    30%,50%,70%{
+        -webkit-transform:translate3d(-4px,0,0);
+        transform:translate3d(-4px,0,0)
+    }
+    40%,60%{
+        -webkit-transform:translate3d(4px,0,0);
+        transform:translate3d(4px,0,0)
+    }
+}

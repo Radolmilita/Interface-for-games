@@ -1,0 +1,80 @@
+body{
+    max-width:100%;
+    background:url(bg.jpeg);
+    background-size:100%;
+    background-position:center cover;
+    background-repeat:no-repeat
+}
+body .wrapper{
+    width:100%;
+    height:100%;
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+body .wrapper .gameName{
+    font-size:8vw
+}
+body .wrapper .gameName .gameNameOne{
+    color:#00ff55;
+    margin-top:5vh;
+    margin-bottom:0px;
+    text-shadow:0px 0px 10px white
+}
+body .wrapper .gameName .gameNameTwo{
+    color:#00ff55;
+    margin:0px;
+    margin-left:2em;
+    text-shadow:0px 0px 8px white
+}
+body .wrapper .content{
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+body .wrapper .content .contentBtn{
+    width:30vw;
+    height:8vh;
+    margin:2vh;
+    border:none;
+    text-decoration:none;
+    border-radius:8px;
+    background-color:black;
+    background-size:100%;
+    background-position:center center;
+    background-repeat:no-repeat
+}
+body .wrapper .content .contentBtn a{
+    color:rgb(204, 0, 255);
+    text-decoration:none;
+    font-size:2.5vw
+}
+body .wrapper .content .contentBtn:hover{
+    text-decoration:underline;
+    -webkit-box-shadow:0px 0px 15px;
+    box-shadow:0px 0px 15px
+}
